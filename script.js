@@ -21,6 +21,7 @@ function gerarPost(e){
             "Content-Type":"application/json"
         },
         body:jsonCorpo
+        
     })
         
     .then(res =>res.json())
